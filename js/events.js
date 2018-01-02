@@ -17,13 +17,14 @@ function pressIt(){
     if(key.which == 71){
        alert('G was pressed')
      }
-  })
+   }) 
+  }
 
 
 $(document).ready(function(){
 // call functions here
 getIt()
 frameIt()
-
+pressIT()
 
 });
