@@ -13,7 +13,7 @@ function frameIt(){
 }
 //presIT,alerts when g is typed into the input field
 function pressIt(){
-  $('form').on("keydown", function(){
+  $('input').on("keydown", function(){
     if(key.which == 71){
        alert('s was pressed');
      }
