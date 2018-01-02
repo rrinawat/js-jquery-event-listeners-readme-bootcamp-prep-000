@@ -20,7 +20,11 @@ function pressIt(){
    })
   }
 //submitIt, upon submitting, alerts form is being submitted
-
+function submitIt(){
+  $('form').on('submit', function(){
+    alert ("Your form is going to be submitted now.")
+  })
+}
 
 
 $(document).ready(function(){
