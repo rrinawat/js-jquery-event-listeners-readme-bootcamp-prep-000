@@ -20,7 +20,7 @@ function pressIt(){
    })
   }
 //submitIt, upon submitting, alerts form is being submitted
-$('form')
+
 
 
 $(document).ready(function(){
