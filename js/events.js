@@ -11,6 +11,10 @@ function frameIt(){
     $('img').addClass('tasty')
     })
 }
+//presIT,alerts when g is typed into the input field
+function pressIt(){
+  $()
+}
 $(document).ready(function(){
 // call functions here
 getIt()
