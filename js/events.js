@@ -5,9 +5,15 @@ function getIt(){
     alert("Hey!")
   })
 }
+//frameIt, adds red frame to image
+function frameIt(){
+  $('img').on("load", function(){
+    $('img').addClass('tasy')
+    })
+}
 $(document).ready(function(){
-
 // call functions here
 getIt()
+frameIt()
 
 });
