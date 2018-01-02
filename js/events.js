@@ -11,7 +11,14 @@ function frameIt(){
     $('img').addClass('tasty')
     })
 }
-//presIT,alerts when g is typed into the input field
+//pressIt,alerts when g is typed into the input field
+function pressIt(){
+  $('input').on("keydown", function(){
+    if(key.which == 71){
+       alert('G was pressed')
+     }
+  })
+
 
 $(document).ready(function(){
 // call functions here
