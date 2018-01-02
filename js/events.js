@@ -16,8 +16,9 @@ function pressIt(){
   $('form').on("keydown", function(){
     if(key.which == 71){
        alert('s was pressed');
+     }
   })
-}
+
 $(document).ready(function(){
 // call functions here
 getIt()
