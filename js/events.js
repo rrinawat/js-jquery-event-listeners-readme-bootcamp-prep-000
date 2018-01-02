@@ -13,12 +13,14 @@ function frameIt(){
 }
 //pressIt,alerts when g is typed into the input field
 function pressIt(){
-  $('document').on('keydown', function(key){
+  $('form').on('keydown', function(key){
     if(key.which == 71){
        alert('G was pressed')
      }
    })
   }
+//submitIt, upon submitting, alerts form is being submitted
+$('form')
 
 
 $(document).ready(function(){
